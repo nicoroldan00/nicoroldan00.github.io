@@ -2,9 +2,144 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>UNLa</title>
+<link href="./styles.css" rel="stylesheet" />
+<!-- Bootstrap core CSS -->
+<link href="./bootstrap.min.css" rel="stylesheet" />
+<!-- Custom styles for this template -->
+<link href="./modern-business.css" rel="stylesheet" />
+<title>Permiso</title>
+<script src="./main.js"></script>
+<style>
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px; 
+	background: #343a40;
+}
+</style>
 </head>
 <body>
-Test
+	<nav
+		class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+		<div class="container">
+			<button aria-controls="navbarResponsive" aria-expanded="false"
+				aria-label="Toggle navigation"
+				class="navbar-toggler navbar-toggler-right"
+				data-target="#navbarResponsive" data-toggle="collapse" type="button"></button>
+			<div class="collapse navbar-collapse" id="navbarResponsive"></div>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-7">
+					<div class="card shadow-lg border-2 rounded-lg mt-5">
+						<div class="card-header">
+							<div class="text-center">
+								<h2>Permiso</h2>
+							</div>
+							<h3>Pertenece a</h3>
+							<div class="row">
+								<div class="col">
+									<p>
+										Nombre: <a id="nombre"></a>
+									</p>
+								</div>
+								<div class="col">
+									<p>
+										Apellido: <a id="apellido"></a>
+									</p>
+								</div>
+								<div class="col">
+									<p>
+										Dni: <a id="dni"></a>
+									</p>
+								</div>
+							</div>
+
+							<h4>Fecha del permiso</h4>
+							<div class="row">
+								<div class="col">
+									<p>
+										Inicio: <a id="inicio"></a>
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<p>
+										Fin: <a id="fin"></a>
+									</p>
+								</div>
+							</div>
+							<h4>Lugar de origen y destino</h4>
+							<div class="row">
+								<div class="col">
+									<p>
+										Desde: <a id="desde"></a>
+									</p>
+								</div>
+								<div class="col">
+									<p>
+										CP: <a id="desdeCP"></a>
+									</p>
+								</div>
+								<div class="col extra-col"></div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<p>
+										Hasta: <a id="hasta"></a>
+									</p>
+								</div>
+								<div class="col">
+									<p>
+										CP: <a id="hastaCP"></a>
+									</p>
+								</div>
+								<div class="col extra-col"></div>
+							</div>
+							<h4 class="d-none" id="detalles">Detalles</h4>
+							<div class="row">
+								<div class="col">
+									<p>
+										Motivo: <a id="motivo"></a>
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<p>
+										Vehiculo: <a id="vehiculo"></a>
+									</p>
+								</div>
+								<div class="col">
+									<p>
+										Dominio: <a id="dominio"></a>
+									</p>
+								</div>
+								<div class="col extra-col"></div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<p>
+										Vacaciones: <a id="vacaciones"></a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 </body>
+
+<div id="footer">
+	<div class="m-0 text-center text-white">
+		<br>Copyright &copy;Grupo 3 Objetos 2 2021
+	</div>
+</div>
 </html>
